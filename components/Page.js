@@ -36,12 +36,16 @@ injectGlobal`
   body {
     padding: 0;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 2;
   }
   a {
     text-decoration: none;
     color: ${theme.black}
+  }
+  p {
+    font-size: 1.6em;
   }
 `;
 

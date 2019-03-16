@@ -4,7 +4,7 @@ const Meta = () => (
   <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charSet="utf-8" />
-    <title>Logistic Saviour</title>
+    <title>Conference Radar</title>
   </Head>
 );
 

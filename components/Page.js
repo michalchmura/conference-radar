@@ -44,9 +44,6 @@ injectGlobal`
     text-decoration: none;
     color: ${theme.black}
   }
-  p {
-    font-size: 1.6em;
-  }
 `;
 
 class Page extends Component {

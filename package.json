@@ -28,8 +28,5 @@
   },
   "devDependencies": {
     "@types/react-simple-maps": "^0.12.1"
-  },
-  "browser": {
-    "fs": false
   }
 }

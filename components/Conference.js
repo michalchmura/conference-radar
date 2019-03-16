@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 
-class Conference extends Component {
-  render() {
-    return (
-      <div>
-        <p>A Conference</p>
-      </div>
-    )
-  }
+const Conference = (props) => {
+  console.log('conference')
+  return (
+    <div>
+      <p>A Conference</p>
+    </div>
+  )
 }
 
 export default Conference

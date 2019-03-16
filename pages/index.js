@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import { useState } from 'react';
+import conferenceData from '../utils/conferenceData';
 import Map from '../components/Map';
-import Conference from '../components/Conference';
-import useLoadConferenceData from '../hooks/loadConferenceData';
+import Conferences from '../components/Conferences';
 
 const Header = styled.h1`
   font-size: 5em;
@@ -11,13 +12,13 @@ const Header = styled.h1`
 `;
 
 const Home = () => {
-  const { conferenceList } = useLoadConferenceData();
+  const [conferenceList, setConferenceList] = useState(conferenceData);
 
   return (
     <div>
       <Header>🌎 Conference Radar</Header>
-      <Map />
-      <Conference />
+      <Map conferenceList={conferenceList} />
+      <Conferences conferenceList={conferenceList} />
     </div>
   )
 };

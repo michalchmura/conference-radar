@@ -1,17 +1,20 @@
 {
-	name: 'FrontCon',
-	location: 'Riga', // or GPS coordinates?
-	country: 'Latvia',
-	price: '249.00',
-	currency: 'EUR',
-	url: "https://frontcon.lv/",
-	picture: '', // splash]
-	technologies: ['Frontend', 'JavaScript', 'Web Development', 'Vuex', 'Serverless'],
-	start_date: '2019-04-03',
-	end_date: '2019-04-05',
-
-	// GPS coordinates
-	latitude: 56.949650,
-	longitude: 24.105186,
-	...
+	"name": "FrontCon",
+	"location": "Riga",
+	"country": "Latvia",
+	"price": "249.00",
+	"currency": "EUR",
+	"url": "https://frontcon.lv/",
+	"picture": "",
+	"technologies": [
+		"Frontend",
+		"JavaScript",
+		"Web Development",
+		"Vuex",
+		"Serverless"
+	],
+	"start_date": "2019-04-03",
+	"end_date": "2019-04-05",
+	"latitude": 56.949650,
+	"longitude": 24.105186
 }

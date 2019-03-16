@@ -1,17 +1,18 @@
 {
-	name: 'International JavaScript Conference',
-	location: 'London', // or GPS coordinates?
-	country: 'UK',
-	price: '125.00',
-	currency: 'GBP',
-	url: "https://2019.frontendne.co.uk/",
-	picture: '', // splash]
-	technologies: ['Frontend', 'JavaScript', 'Web Development'],
-	start_date: '2019-04-03',
-	end_date: '2019-04-03',
-
-	// GPS coordinates
-	latitude: 54.977840,
-	longitude: -1.612920,
-	...
+	"name": "International JavaScript Conference",
+	"location": "London",
+	"country": "UK",
+	"price": "125.00",
+	"currency": "GBP",
+	"url": "https://2019.frontendne.co.uk/",
+	"picture": "",
+	"technologies": [
+		"Frontend",
+		"JavaScript",
+		"Web Development"
+	],
+	"start_date": "2019-04-03",
+	"end_date": "2019-04-03",
+	"latitude": 54.977840,
+	"longitude": -1.612920
 }

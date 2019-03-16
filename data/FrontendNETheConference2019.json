@@ -1,17 +1,18 @@
 {
-	name: 'React Amsterdam',
-	location: 'Newcastle-Upon-Tyne', // or GPS coordinates?
-	country: 'UK',
-	price: '649.00',
-	currency: 'GBP',
-	url: "https://javascript-conference.com/",
-	picture: '', // splash]
-	technologies: ['Frontend', 'JavaScript', 'Web Development'],
-	start_date: '2019-05-13',
-	end_date: '2019-05-15',
-
-	// GPS coordinates
-	latitude: 51.507351,
-	longitude: -0.127758,
-	...
+	"name": "React Amsterdam",
+	"location": "Newcastle-Upon-Tyne",
+	"country": "UK",
+	"price": "649.00",
+	"currency": "GBP",
+	"url": "https://javascript-conference.com/",
+	"picture": "",
+	"technologies": [
+		"Frontend",
+		"JavaScript",
+		"Web Development"
+	],
+	"start_date": "2019-05-13",
+	"end_date": "2019-05-15",
+	"latitude": 51.507351,
+	"longitude": -0.127758
 }

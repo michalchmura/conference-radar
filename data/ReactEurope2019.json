@@ -1,0 +1,17 @@
+{
+	name: 'ReactEurope',
+	location: 'Kromhouthal', // or GPS coordinates?
+	country: 'Amsterdam',
+	price: '600.00',
+	currency: 'EUR',
+	url: "https://react.amsterdam/",
+	picture: '', // splash]
+	technologies: ['React', 'JavaScript', 'Web Development', 'GraphQL'],
+	start_date: '2019-04-12',
+	end_date: '2019-04-12',
+
+	// GPS coordinates
+	latitude: 52.382709,
+	longitude: 4.920651,
+	...
+}

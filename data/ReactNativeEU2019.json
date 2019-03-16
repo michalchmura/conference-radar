@@ -1,0 +1,17 @@
+{
+	name: 'React Native EU',
+	location: 'Wroclaw', // or GPS coordinates?
+	country: 'Poland',
+	price: '299.00',
+	currency: 'EUR',
+	url: "https://react-native.eu/",
+	picture: '', // splash]
+	technologies: ['React', 'JavaScript', 'Web Development', 'GraphQL'],
+	start_date: '2019-09-5',
+	end_date: '2019-09-6',
+
+	// GPS coordinates
+	latitude: 51.107883,
+	longitude: 17.038538,
+	...
+}

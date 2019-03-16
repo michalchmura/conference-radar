@@ -1,0 +1,17 @@
+{
+	name: 'App.js Conf',
+	location: 'Krakow', // or GPS coordinates?
+	country: 'Poland',
+	price: '202.95',
+	currency: 'EUR',
+	url: "https://appjs.co/",
+	picture: '', // splash]
+	technologies: ['React', 'JavaScript', 'Web Development', 'Frontend'],
+	start_date: '2019-04-04',
+	end_date: '2019-04-05',
+
+	// GPS coordinates
+	latitude: 50.064651,
+	longitude: 19.944981,
+	...
+}

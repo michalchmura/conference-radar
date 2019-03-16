@@ -1,0 +1,17 @@
+{
+	name: 'React Amsterdam',
+	location: 'Paris', // or GPS coordinates?
+	country: 'France',
+	price: '679.00',
+	currency: 'EUR',
+	url: "https://www.react-europe.org/",
+	picture: '', // splash]
+	technologies: ['React', 'JavaScript', 'Web Development', 'GraphQL'],
+	start_date: '2019-05-23',
+	end_date: '2019-05-24',
+
+	// GPS coordinates
+	latitude: 48.856613,
+	longitude: 2.352222,
+	...
+}

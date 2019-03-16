@@ -1,0 +1,17 @@
+{
+	name: 'Nordic.js',
+	location: 'Stockholm', // or GPS coordinates?
+	country: 'Sweden',
+	price: '5800.00',
+	currency: 'SEK',
+	url: "https://nordicjs.com/",
+	picture: '', // splash]
+	technologies: ['JavaScript', 'Frontend', 'Web Development', 'GraphQL'],
+	start_date: '2019-10-10',
+	end_date: '2019-10-11',
+
+	// GPS coordinates
+	latitude: 59.329323,
+	longitude: 18.068581,
+	...
+}

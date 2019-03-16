@@ -1,0 +1,27 @@
+{
+  "name": "conference-radar",
+  "version": "1.0.0",
+  "description": "Web application for Conference Radar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalchmura/conference-radar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalchmura/conference-radar/issues"
+  },
+  "homepage": "https://github.com/michalchmura/conference-radar#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "styled-components": "^3.4.9"
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"name": "JSCamp Barcelona",
+	"location": "Barcelona",
+	"country": "Spain",
+	"price": "375.70",
+	"currency": "EUR",
+	"url": "https://jscamp.tech/",
+	"picture": "",
+	"technologies": [
+		"JavaScript",
+		"Web Development",
+		"Front-end"
+	],
+	"start_date": "2019-07-18",
+	"end_date": "2019-07-19",
+	"latitude": 41.385063,
+	"longitude": 2.173404
+}

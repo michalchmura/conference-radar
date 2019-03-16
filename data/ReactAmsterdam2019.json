@@ -1,10 +1,10 @@
 {
 	"name": "React Amsterdam",
-	"location": "Paris",
-	"country": "France",
-	"price": "679.00",
+	"location": "Kromhouthal",
+	"country": "Amsterdam",
+	"price": "600.00",
 	"currency": "EUR",
-	"url": "https://www.react-europe.org/",
+	"url": "https://react.amsterdam/",
 	"picture": "",
 	"technologies": [
 		"React",
@@ -12,8 +12,8 @@
 		"Web Development",
 		"GraphQL"
 	],
-	"start_date": "2019-05-23",
-	"end_date": "2019-05-24",
-	"latitude": 48.856613,
-	"longitude": 2.352222
+	"start_date": "2019-04-12",
+	"end_date": "2019-04-12",
+	"latitude": 52.382709,
+	"longitude": 4.920651
 }

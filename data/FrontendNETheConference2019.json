@@ -1,5 +1,5 @@
 {
-	"name": "React Amsterdam",
+	"name": "Frontend NE: The Conference",
 	"location": "Newcastle-Upon-Tyne",
 	"country": "UK",
 	"price": "649.00",
@@ -7,7 +7,7 @@
 	"url": "https://javascript-conference.com/",
 	"picture": "",
 	"technologies": [
-		"Frontend",
+		"Front-end",
 		"JavaScript",
 		"Web Development"
 	],

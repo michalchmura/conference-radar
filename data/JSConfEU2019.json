@@ -1,0 +1,17 @@
+{
+	"name": "JSConf EU",
+	"location": "Berlin",
+	"country": "Germany",
+	"price": "679.00",
+	"currency": "EUR",
+	"url": "https://2019.jsconf.eu/",
+	"picture": "",
+	"technologies": [
+		"JavaScript",
+		"Web Development"
+	],
+	"start_date": "2019-06-1",
+	"end_date": "2019-06-2",
+	"latitude": 52.520008,
+	"longitude": 13.404954
+}

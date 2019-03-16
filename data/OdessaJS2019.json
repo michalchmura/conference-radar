@@ -1,17 +1,17 @@
 {
-	"name": "SmashingConf Freiburg",
-	"location": "Freiburg",
-	"country": "Germany",
-	"price": "599.00",
-	"currency": "EUR",
-	"url": "https://smashingconf.com/freiburg-2019",
+	"name": "OdessaJS",
+	"location": "Odessa",
+	"country": "Ukraine",
+	"price": "2,500.00",
+	"currency": "UAH",
+	"url": "https://odessajs2019.ticketforevent.com/",
 	"picture": "",
 	"technologies": [
 		"Front-end",
 		"Web Development"
 	],
-	"start_date": "2019-09-9",
-	"end_date": "2019-09-10",
-	"latitude": 47.999008,
-	"longitude": 7.842104
+	"start_date": "2019-07-20",
+	"end_date": "2019-07-21",
+	"latitude": 46.482525,
+	"longitude": 30.723309
 }

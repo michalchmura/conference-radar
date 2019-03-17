@@ -5,11 +5,11 @@
 	"price": "125.00",
 	"currency": "GBP",
 	"url": "https://2019.frontendne.co.uk/",
-	"picture": "",
+	"picture": "static/images/javascriptConference2019.png",
 	"technologies": [
-		"Front-end",
 		"JavaScript",
-		"Web Development"
+		"Web Development",
+		"Front-end"
 	],
 	"start_date": "2019-04-03",
 	"end_date": "2019-04-03",

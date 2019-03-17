@@ -5,12 +5,12 @@
 	"price": "5800.00",
 	"currency": "SEK",
 	"url": "https://nordicjs.com/",
-	"picture": "",
+	"picture": "static/images/NordicJs2019.jpg",
 	"technologies": [
 		"JavaScript",
-		"Front-end",
 		"Web Development",
-		"GraphQL"
+		"GraphQL",
+		"Front-end"
 	],
 	"start_date": "2019-10-10",
 	"end_date": "2019-10-11",

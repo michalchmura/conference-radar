@@ -5,7 +5,7 @@
 	"price": "649.00",
 	"currency": "GBP",
 	"url": "https://javascript-conference.com/",
-	"picture": "",
+	"picture": "static/images/FrontendNETheConference2019.png",
 	"technologies": [
 		"Front-end",
 		"JavaScript",

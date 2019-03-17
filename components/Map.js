@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { Component, useState, useEffect, useRef } from 'react'
 import {
   ComposableMap,
   ZoomableGroup,
@@ -7,8 +7,12 @@ import {
   Markers,
   Marker,
 } from 'react-simple-maps';
+import { geoPath } from "d3-geo"
+import { geoTimes } from "d3-geo-projection"
+
 
 import { conferenceMarkers } from '../utils/conferenceData';
+const centroids = require('../static/centroids.json');
 
 const wrapperStyles = {
   width: "100%",
@@ -26,26 +30,38 @@ const Map = ({ conferenceList }) => {
   const [zoom, setZoom] = useState(1);
   const [center, setCenter] = useState([13.404954, 52.520008])
 
-  const handleCitySelection = (coordinates) => {
-    setZoom(3)
-    setCenter(coordinates)
-  }
+  const prevCenterRef = useRef();
+
+  useEffect(() => {
+    prevCenterRef.current = center;
+  });
+  const prevCenter = prevCenterRef.current;
 
   const handleReset = () => {
     setZoom(1)
-    setCenter([13.404954, 52.520008])
   }
 
-  const handleClick = (e) => {
-    console.log(e.geometry.coordinates[0][0][0])
+  const handleCitySelection = (geography) => {
+    const name = geography.properties.name
+    const country = centroids.filter(item => item.name === name)
+    const centroid = [country[0].long, country[0].lat]
+    setCenter(centroid)
+
   }
+
+  useEffect(() => {
+    if (prevCenter ? prevCenter.every(e => center.includes(e)) : undefined) {
+      if (zoom === 3) {
+        handleReset()
+      } else {
+        setZoom(3);
+      }
+    }
+  }, [center])
 
   return (
     <>
       <div style={wrapperStyles}>
-        <button onClick={handleReset}>
-          Reset
-        </button>
         <ComposableMap
           projectionConfig={{
             scale: 605,
@@ -64,7 +80,7 @@ const Map = ({ conferenceList }) => {
                       key={i}
                       geography={geography}
                       projection={projection}
-                      onClick={(e) => handleCitySelection(e.geometry.coordinates[0][0][0])}
+                      onClick={handleCitySelection.bind(this)}
                       style={{
                         default: {
                           fill: '#ECEFF1',
@@ -92,19 +108,19 @@ const Map = ({ conferenceList }) => {
             </Geographies>
             <Markers>
               {conferenceMarkers.map((marker, i) => (
-                <Marker key={i} marker={marker} onClick={() => handleCitySelection(marker.coordinates)}
+                <Marker key={i} marker={marker}
                   style={{
                     default: { fill: "#e8368f" },
                     hover: { fill: "#A20664" },
                     pressed: { fill: "#870457" },
                   }}>
                   <circle cx={0} cy={0} r={5} />
-                  {/* <text
+                  {zoom > 1 ? <text
                     x={10}
                     y={3}
                   >
                     {marker.name}
-                  </text> */}
+                  </text> : null}
                 </Marker>
               ))}
             </Markers>

@@ -5,7 +5,7 @@
 	"price": "679.00",
 	"currency": "EUR",
 	"url": "https://2019.jsconf.eu/",
-	"picture": "",
+	"picture": "static/images/JSConfEU2019.png",
 	"technologies": [
 		"JavaScript",
 		"Web Development"

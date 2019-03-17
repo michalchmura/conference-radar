@@ -5,7 +5,7 @@
 	"price": "202.95",
 	"currency": "EUR",
 	"url": "https://appjs.co/",
-	"picture": "",
+	"picture": "static/images/AppJsConf2019.jpg",
 	"technologies": [
 		"React",
 		"JavaScript",

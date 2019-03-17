@@ -5,13 +5,13 @@
 	"price": "249.00",
 	"currency": "EUR",
 	"url": "https://frontcon.lv/",
-	"picture": "",
+	"picture": "static/images/Frontcon2019.jpeg",
 	"technologies": [
-		"Front-end",
 		"JavaScript",
 		"Web Development",
 		"Vuex",
-		"Serverless"
+		"Serverless",
+		"Front-end"
 	],
 	"start_date": "2019-04-03",
 	"end_date": "2019-04-05",

@@ -5,7 +5,7 @@
 	"price": "679.00",
 	"currency": "EUR",
 	"url": "https://www.react-europe.org/",
-	"picture": "",
+	"picture": "static/images/ReactEurope2019.png",
 	"technologies": [
 		"React",
 		"JavaScript",

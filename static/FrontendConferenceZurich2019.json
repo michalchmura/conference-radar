@@ -5,11 +5,11 @@
 	"price": "599.00",
 	"currency": "EUR",
 	"url": "https://smashingconf.com/freiburg-2019",
-	"picture": "",
+	"picture": "static/images/FrontendConferenceZurich2019.png",
 	"technologies": [
-		"Front-end",
 		"Web Development",
-		"JavaScript"
+		"JavaScript",
+		"Front-end"
 	],
 	"start_date": "2019-09-9",
 	"end_date": "2019-09-10",

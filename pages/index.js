@@ -11,14 +11,20 @@ const Header = styled.h1`
   color: ${props => props.theme.primary};
 `;
 
+const TopWrapper = styled.div`
+  display: flex;
+`;
+
 const Home = () => {
   const [conferenceList, setConferenceList] = useState(conferenceData);
 
   return (
     <div>
       <Header>🌎 Conference Radar</Header>
-      <Map conferenceList={conferenceList} />
-      <Conferences conferenceList={conferenceList} />
+      <TopWrapper>
+        <Map conferenceList={conferenceList} />
+        <Conferences conferenceList={conferenceList} />
+      </TopWrapper>
     </div>
   )
 };

@@ -2,13 +2,13 @@
 	"name": "OdessaJS",
 	"location": "Odessa",
 	"country": "Ukraine",
-	"price": "2,500.00",
+	"price": "2500.00",
 	"currency": "UAH",
 	"url": "https://odessajs2019.ticketforevent.com/",
-	"picture": "",
+	"picture": "static/images/OdessaJS2019.png",
 	"technologies": [
-		"Front-end",
-		"Web Development"
+		"Web Development",
+		"Front-end"
 	],
 	"start_date": "2019-07-20",
 	"end_date": "2019-07-21",
